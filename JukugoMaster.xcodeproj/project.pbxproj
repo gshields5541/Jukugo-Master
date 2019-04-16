@@ -1,0 +1,654 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82C88999198B13A700F90156 /* CompoundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C88998198B13A700F90156 /* CompoundTests.swift */; };
+		CCA0476D22659F3B004271A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA0476C22659F3B004271A1 /* AppDelegate.swift */; };
+		CCA0476F22659F59004271A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA0476E22659F59004271A1 /* ViewController.swift */; };
+		CCA0477122659F6F004271A1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCA0477022659F6F004271A1 /* Images.xcassets */; };
+		CCA0477322659F84004271A1 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA0477222659F84004271A1 /* Config.swift */; };
+		CCA0477522659F98004271A1 /* credits.txt in Resources */ = {isa = PBXBuildFile; fileRef = CCA0477422659F98004271A1 /* credits.txt */; };
+		CCA0477722659FCE004271A1 /* level1.plist in Resources */ = {isa = PBXBuildFile; fileRef = CCA0477622659FCE004271A1 /* level1.plist */; };
+		CCA0477A22659FF3004271A1 /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA0477822659FF3004271A1 /* Level.swift */; };
+		CCA0477B22659FF3004271A1 /* GameData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA0477922659FF3004271A1 /* GameData.swift */; };
+		CCA047832265A02A004271A1 /* TargetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA0477C2265A02A004271A1 /* TargetView.swift */; };
+		CCA047842265A02A004271A1 /* CounterLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA0477D2265A02A004271A1 /* CounterLabelView.swift */; };
+		CCA047852265A02A004271A1 /* HUDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA0477E2265A02A004271A1 /* HUDView.swift */; };
+		CCA047862265A02A004271A1 /* ExplodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA0477F2265A02A004271A1 /* ExplodeView.swift */; };
+		CCA047872265A02A004271A1 /* StopwatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA047802265A02A004271A1 /* StopwatchView.swift */; };
+		CCA047882265A02A004271A1 /* TileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA047812265A02A004271A1 /* TileView.swift */; };
+		CCA047892265A02A004271A1 /* StardustView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA047822265A02A004271A1 /* StardustView.swift */; };
+		CCA0478C2265A057004271A1 /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA0478A2265A057004271A1 /* GameController.swift */; };
+		CCA0478D2265A057004271A1 /* AudioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA0478B2265A057004271A1 /* AudioController.swift */; };
+		CCA047962265A07B004271A1 /* slot@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCA0478E2265A07B004271A1 /* slot@2x.png */; };
+		CCA047972265A07B004271A1 /* btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCA0478F2265A07B004271A1 /* btn@2x.png */; };
+		CCA047982265A07B004271A1 /* tile.png in Resources */ = {isa = PBXBuildFile; fileRef = CCA047902265A07B004271A1 /* tile.png */; };
+		CCA047992265A07B004271A1 /* board.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCA047912265A07B004271A1 /* board.jpg */; };
+		CCA0479A2265A07B004271A1 /* btn.png in Resources */ = {isa = PBXBuildFile; fileRef = CCA047922265A07B004271A1 /* btn.png */; };
+		CCA0479B2265A07B004271A1 /* slot.png in Resources */ = {isa = PBXBuildFile; fileRef = CCA047932265A07B004271A1 /* slot.png */; };
+		CCA0479C2265A07B004271A1 /* tile@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCA047942265A07B004271A1 /* tile@2x.png */; };
+		CCA0479D2265A07B004271A1 /* board@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCA047952265A07B004271A1 /* board@2x.jpg */; };
+		CCA047A12265A0A8004271A1 /* ding.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CCA0479E2265A0A8004271A1 /* ding.mp3 */; };
+		CCA047A22265A0A8004271A1 /* win.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CCA0479F2265A0A8004271A1 /* win.mp3 */; };
+		CCA047A32265A0A8004271A1 /* wrong.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CCA047A02265A0A8004271A1 /* wrong.m4a */; };
+		CCA047A52265A0BD004271A1 /* particle.png in Resources */ = {isa = PBXBuildFile; fileRef = CCA047A42265A0BD004271A1 /* particle.png */; };
+		CCA047A72265A0CF004271A1 /* Comic_Andy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CCA047A62265A0CF004271A1 /* Comic_Andy.ttf */; };
+		CCA047AA2265A31C004271A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCA047A82265A31C004271A1 /* Main.storyboard */; };
+		CCA047AE2265A3C2004271A1 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCA047AB2265A3C2004271A1 /* Default@2x.png */; };
+		CCA047AF2265A3C2004271A1 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CCA047AC2265A3C2004271A1 /* Default.png */; };
+		CCA047B42265AE94004271A1 /* level2.plist in Resources */ = {isa = PBXBuildFile; fileRef = CCA047B32265AE94004271A1 /* level2.plist */; };
+		CCA047B62265B13D004271A1 /* level3.plist in Resources */ = {isa = PBXBuildFile; fileRef = CCA047B52265B13D004271A1 /* level3.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		82C88993198B13A700F90156 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82C88978198B13A700F90156 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82C8897F198B13A700F90156;
+			remoteInfo = Anagrams;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		82C88980198B13A700F90156 /* JukugoMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JukugoMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82C88992198B13A700F90156 /* JukugoMasterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JukugoMasterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82C88997198B13A700F90156 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82C88998198B13A700F90156 /* CompoundTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompoundTests.swift; sourceTree = "<group>"; };
+		CCA0476C22659F3B004271A1 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = JukugoMaster/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
+		CCA0476E22659F59004271A1 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = JukugoMaster/ViewController.swift; sourceTree = SOURCE_ROOT; };
+		CCA0477022659F6F004271A1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = JukugoMaster/Images.xcassets; sourceTree = SOURCE_ROOT; };
+		CCA0477222659F84004271A1 /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Config.swift; path = JukugoMaster/Config.swift; sourceTree = SOURCE_ROOT; };
+		CCA0477422659F98004271A1 /* credits.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = credits.txt; path = JukugoMaster/credits.txt; sourceTree = SOURCE_ROOT; };
+		CCA0477622659FCE004271A1 /* level1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = level1.plist; path = JukugoMaster/level1.plist; sourceTree = SOURCE_ROOT; };
+		CCA0477822659FF3004271A1 /* Level.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Level.swift; path = JukugoMaster/Level.swift; sourceTree = SOURCE_ROOT; };
+		CCA0477922659FF3004271A1 /* GameData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameData.swift; path = JukugoMaster/GameData.swift; sourceTree = SOURCE_ROOT; };
+		CCA0477C2265A02A004271A1 /* TargetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TargetView.swift; path = JukugoMaster/TargetView.swift; sourceTree = SOURCE_ROOT; };
+		CCA0477D2265A02A004271A1 /* CounterLabelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CounterLabelView.swift; path = JukugoMaster/CounterLabelView.swift; sourceTree = SOURCE_ROOT; };
+		CCA0477E2265A02A004271A1 /* HUDView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HUDView.swift; path = JukugoMaster/HUDView.swift; sourceTree = SOURCE_ROOT; };
+		CCA0477F2265A02A004271A1 /* ExplodeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExplodeView.swift; path = JukugoMaster/ExplodeView.swift; sourceTree = SOURCE_ROOT; };
+		CCA047802265A02A004271A1 /* StopwatchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StopwatchView.swift; path = JukugoMaster/StopwatchView.swift; sourceTree = SOURCE_ROOT; };
+		CCA047812265A02A004271A1 /* TileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TileView.swift; path = JukugoMaster/TileView.swift; sourceTree = SOURCE_ROOT; };
+		CCA047822265A02A004271A1 /* StardustView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StardustView.swift; path = JukugoMaster/StardustView.swift; sourceTree = SOURCE_ROOT; };
+		CCA0478A2265A057004271A1 /* GameController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameController.swift; path = JukugoMaster/GameController.swift; sourceTree = SOURCE_ROOT; };
+		CCA0478B2265A057004271A1 /* AudioController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AudioController.swift; path = JukugoMaster/AudioController.swift; sourceTree = SOURCE_ROOT; };
+		CCA0478E2265A07B004271A1 /* slot@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "slot@2x.png"; path = "JukugoMaster/slot@2x.png"; sourceTree = SOURCE_ROOT; };
+		CCA0478F2265A07B004271A1 /* btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "btn@2x.png"; path = "JukugoMaster/btn@2x.png"; sourceTree = SOURCE_ROOT; };
+		CCA047902265A07B004271A1 /* tile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tile.png; path = JukugoMaster/tile.png; sourceTree = SOURCE_ROOT; };
+		CCA047912265A07B004271A1 /* board.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = board.jpg; path = JukugoMaster/board.jpg; sourceTree = SOURCE_ROOT; };
+		CCA047922265A07B004271A1 /* btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btn.png; path = JukugoMaster/btn.png; sourceTree = SOURCE_ROOT; };
+		CCA047932265A07B004271A1 /* slot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = slot.png; path = JukugoMaster/slot.png; sourceTree = SOURCE_ROOT; };
+		CCA047942265A07B004271A1 /* tile@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tile@2x.png"; path = "JukugoMaster/tile@2x.png"; sourceTree = SOURCE_ROOT; };
+		CCA047952265A07B004271A1 /* board@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "board@2x.jpg"; path = "JukugoMaster/board@2x.jpg"; sourceTree = SOURCE_ROOT; };
+		CCA0479E2265A0A8004271A1 /* ding.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = ding.mp3; path = JukugoMaster/ding.mp3; sourceTree = SOURCE_ROOT; };
+		CCA0479F2265A0A8004271A1 /* win.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = win.mp3; path = JukugoMaster/win.mp3; sourceTree = SOURCE_ROOT; };
+		CCA047A02265A0A8004271A1 /* wrong.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = wrong.m4a; path = JukugoMaster/wrong.m4a; sourceTree = SOURCE_ROOT; };
+		CCA047A42265A0BD004271A1 /* particle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = particle.png; path = JukugoMaster/particle.png; sourceTree = SOURCE_ROOT; };
+		CCA047A62265A0CF004271A1 /* Comic_Andy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Comic_Andy.ttf; path = JukugoMaster/Comic_Andy.ttf; sourceTree = SOURCE_ROOT; };
+		CCA047A92265A31C004271A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = JukugoMaster/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
+		CCA047AB2265A3C2004271A1 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "JukugoMaster/Default@2x.png"; sourceTree = SOURCE_ROOT; };
+		CCA047AC2265A3C2004271A1 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = JukugoMaster/Default.png; sourceTree = SOURCE_ROOT; };
+		CCA047B32265AE94004271A1 /* level2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = level2.plist; path = JukugoMaster/level2.plist; sourceTree = SOURCE_ROOT; };
+		CCA047B52265B13D004271A1 /* level3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = level3.plist; path = JukugoMaster/level3.plist; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82C8897D198B13A700F90156 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82C8898F198B13A700F90156 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82C88977198B13A700F90156 = {
+			isa = PBXGroup;
+			children = (
+				82C88982198B13A700F90156 /* JukugoMaster */,
+				82C88995198B13A700F90156 /* JukugoMasterTests */,
+				82C88981198B13A700F90156 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82C88981198B13A700F90156 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82C88980198B13A700F90156 /* JukugoMaster.app */,
+				82C88992198B13A700F90156 /* JukugoMasterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82C88982198B13A700F90156 /* JukugoMaster */ = {
+			isa = PBXGroup;
+			children = (
+				CCA047A82265A31C004271A1 /* Main.storyboard */,
+				CCA0477222659F84004271A1 /* Config.swift */,
+				82C889A4198B194E00F90156 /* Levels */,
+				82C889AB198B196400F90156 /* Classes */,
+				82C889AF198B198E00F90156 /* Assets */,
+				CCA0476C22659F3B004271A1 /* AppDelegate.swift */,
+				CCA0476E22659F59004271A1 /* ViewController.swift */,
+				CCA0477022659F6F004271A1 /* Images.xcassets */,
+				82C88983198B13A700F90156 /* Supporting Files */,
+				CCA0477422659F98004271A1 /* credits.txt */,
+			);
+			path = JukugoMaster;
+			sourceTree = "<group>";
+		};
+		82C88983198B13A700F90156 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCA047AC2265A3C2004271A1 /* Default.png */,
+				CCA047AB2265A3C2004271A1 /* Default@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		82C88995198B13A700F90156 /* JukugoMasterTests */ = {
+			isa = PBXGroup;
+			children = (
+				82C88998198B13A700F90156 /* CompoundTests.swift */,
+				82C88996198B13A700F90156 /* Supporting Files */,
+			);
+			path = JukugoMasterTests;
+			sourceTree = "<group>";
+		};
+		82C88996198B13A700F90156 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				82C88997198B13A700F90156 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		82C889A4198B194E00F90156 /* Levels */ = {
+			isa = PBXGroup;
+			children = (
+				CCA0477622659FCE004271A1 /* level1.plist */,
+				CCA047B32265AE94004271A1 /* level2.plist */,
+				CCA047B52265B13D004271A1 /* level3.plist */,
+			);
+			name = Levels;
+			sourceTree = "<group>";
+		};
+		82C889AB198B196400F90156 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				82C889AC198B197500F90156 /* Models */,
+				82C889AD198B197A00F90156 /* Views */,
+				82C889AE198B198000F90156 /* Controllers */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		82C889AC198B197500F90156 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CCA0477922659FF3004271A1 /* GameData.swift */,
+				CCA0477822659FF3004271A1 /* Level.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		82C889AD198B197A00F90156 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CCA0477D2265A02A004271A1 /* CounterLabelView.swift */,
+				CCA0477F2265A02A004271A1 /* ExplodeView.swift */,
+				CCA0477E2265A02A004271A1 /* HUDView.swift */,
+				CCA047822265A02A004271A1 /* StardustView.swift */,
+				CCA047802265A02A004271A1 /* StopwatchView.swift */,
+				CCA0477C2265A02A004271A1 /* TargetView.swift */,
+				CCA047812265A02A004271A1 /* TileView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		82C889AE198B198000F90156 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CCA0478B2265A057004271A1 /* AudioController.swift */,
+				CCA0478A2265A057004271A1 /* GameController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		82C889AF198B198E00F90156 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				82C889BB198B19DD00F90156 /* Images */,
+				82C889B5198B19C100F90156 /* Audio */,
+				82C889B2198B19B000F90156 /* Particles */,
+				82C889B0198B199700F90156 /* Fonts */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		82C889B0198B199700F90156 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CCA047A62265A0CF004271A1 /* Comic_Andy.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		82C889B2198B19B000F90156 /* Particles */ = {
+			isa = PBXGroup;
+			children = (
+				CCA047A42265A0BD004271A1 /* particle.png */,
+			);
+			name = Particles;
+			sourceTree = "<group>";
+		};
+		82C889B5198B19C100F90156 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				CCA0479E2265A0A8004271A1 /* ding.mp3 */,
+				CCA0479F2265A0A8004271A1 /* win.mp3 */,
+				CCA047A02265A0A8004271A1 /* wrong.m4a */,
+			);
+			name = Audio;
+			sourceTree = "<group>";
+		};
+		82C889BB198B19DD00F90156 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CCA047912265A07B004271A1 /* board.jpg */,
+				CCA047952265A07B004271A1 /* board@2x.jpg */,
+				CCA047922265A07B004271A1 /* btn.png */,
+				CCA0478F2265A07B004271A1 /* btn@2x.png */,
+				CCA047932265A07B004271A1 /* slot.png */,
+				CCA0478E2265A07B004271A1 /* slot@2x.png */,
+				CCA047902265A07B004271A1 /* tile.png */,
+				CCA047942265A07B004271A1 /* tile@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82C8897F198B13A700F90156 /* JukugoMaster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82C8899C198B13A700F90156 /* Build configuration list for PBXNativeTarget "JukugoMaster" */;
+			buildPhases = (
+				82C8897C198B13A700F90156 /* Sources */,
+				82C8897D198B13A700F90156 /* Frameworks */,
+				82C8897E198B13A700F90156 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JukugoMaster;
+			productName = Anagrams;
+			productReference = 82C88980198B13A700F90156 /* JukugoMaster.app */;
+			productType = "com.apple.product-type.application";
+		};
+		82C88991198B13A700F90156 /* JukugoMasterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82C8899F198B13A700F90156 /* Build configuration list for PBXNativeTarget "JukugoMasterTests" */;
+			buildPhases = (
+				82C8898E198B13A700F90156 /* Sources */,
+				82C8898F198B13A700F90156 /* Frameworks */,
+				82C88990198B13A700F90156 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82C88994198B13A700F90156 /* PBXTargetDependency */,
+			);
+			name = JukugoMasterTests;
+			productName = AnagramsTests;
+			productReference = 82C88992198B13A700F90156 /* JukugoMasterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82C88978198B13A700F90156 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Caroline;
+				TargetAttributes = {
+					82C8897F198B13A700F90156 = {
+						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = H92GAQ5MQY;
+					};
+					82C88991198B13A700F90156 = {
+						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = H92GAQ5MQY;
+						TestTargetID = 82C8897F198B13A700F90156;
+					};
+				};
+			};
+			buildConfigurationList = 82C8897B198B13A700F90156 /* Build configuration list for PBXProject "JukugoMaster" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82C88977198B13A700F90156;
+			productRefGroup = 82C88981198B13A700F90156 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82C8897F198B13A700F90156 /* JukugoMaster */,
+				82C88991198B13A700F90156 /* JukugoMasterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82C8897E198B13A700F90156 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCA047AA2265A31C004271A1 /* Main.storyboard in Resources */,
+				CCA047A52265A0BD004271A1 /* particle.png in Resources */,
+				CCA047A22265A0A8004271A1 /* win.mp3 in Resources */,
+				CCA0477522659F98004271A1 /* credits.txt in Resources */,
+				CCA047AF2265A3C2004271A1 /* Default.png in Resources */,
+				CCA0479C2265A07B004271A1 /* tile@2x.png in Resources */,
+				CCA047962265A07B004271A1 /* slot@2x.png in Resources */,
+				CCA047A12265A0A8004271A1 /* ding.mp3 in Resources */,
+				CCA047B42265AE94004271A1 /* level2.plist in Resources */,
+				CCA047982265A07B004271A1 /* tile.png in Resources */,
+				CCA0479B2265A07B004271A1 /* slot.png in Resources */,
+				CCA0477122659F6F004271A1 /* Images.xcassets in Resources */,
+				CCA047AE2265A3C2004271A1 /* Default@2x.png in Resources */,
+				CCA047992265A07B004271A1 /* board.jpg in Resources */,
+				CCA047A32265A0A8004271A1 /* wrong.m4a in Resources */,
+				CCA0479D2265A07B004271A1 /* board@2x.jpg in Resources */,
+				CCA047B62265B13D004271A1 /* level3.plist in Resources */,
+				CCA0479A2265A07B004271A1 /* btn.png in Resources */,
+				CCA047A72265A0CF004271A1 /* Comic_Andy.ttf in Resources */,
+				CCA047972265A07B004271A1 /* btn@2x.png in Resources */,
+				CCA0477722659FCE004271A1 /* level1.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82C88990198B13A700F90156 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82C8897C198B13A700F90156 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCA047862265A02A004271A1 /* ExplodeView.swift in Sources */,
+				CCA0478C2265A057004271A1 /* GameController.swift in Sources */,
+				CCA0476F22659F59004271A1 /* ViewController.swift in Sources */,
+				CCA0477322659F84004271A1 /* Config.swift in Sources */,
+				CCA0477A22659FF3004271A1 /* Level.swift in Sources */,
+				CCA0476D22659F3B004271A1 /* AppDelegate.swift in Sources */,
+				CCA0478D2265A057004271A1 /* AudioController.swift in Sources */,
+				CCA047892265A02A004271A1 /* StardustView.swift in Sources */,
+				CCA047852265A02A004271A1 /* HUDView.swift in Sources */,
+				CCA047832265A02A004271A1 /* TargetView.swift in Sources */,
+				CCA047842265A02A004271A1 /* CounterLabelView.swift in Sources */,
+				CCA0477B22659FF3004271A1 /* GameData.swift in Sources */,
+				CCA047882265A02A004271A1 /* TileView.swift in Sources */,
+				CCA047872265A02A004271A1 /* StopwatchView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82C8898E198B13A700F90156 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82C88999198B13A700F90156 /* CompoundTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82C88994198B13A700F90156 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82C8897F198B13A700F90156 /* JukugoMaster */;
+			targetProxy = 82C88993198B13A700F90156 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCA047A82265A31C004271A1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCA047A92265A31C004271A1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82C8899A198B13A700F90156 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		82C8899B198B13A700F90156 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82C8899D198B13A700F90156 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = H92GAQ5MQY;
+				INFOPLIST_FILE = JukugoMaster/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.geraldshields.JukugoMaster;
+				PRODUCT_NAME = JukugoMaster;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		82C8899E198B13A700F90156 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = H92GAQ5MQY;
+				INFOPLIST_FILE = JukugoMaster/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.geraldshields.JukugoMaster;
+				PRODUCT_NAME = JukugoMaster;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		82C889A0198B13A700F90156 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Anagrams.app/Anagrams";
+				DEVELOPMENT_TEAM = H92GAQ5MQY;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AnagramsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.carolinebegbie.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		82C889A1198B13A700F90156 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Anagrams.app/Anagrams";
+				DEVELOPMENT_TEAM = H92GAQ5MQY;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AnagramsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.carolinebegbie.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82C8897B198B13A700F90156 /* Build configuration list for PBXProject "JukugoMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82C8899A198B13A700F90156 /* Debug */,
+				82C8899B198B13A700F90156 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82C8899C198B13A700F90156 /* Build configuration list for PBXNativeTarget "JukugoMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82C8899D198B13A700F90156 /* Debug */,
+				82C8899E198B13A700F90156 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82C8899F198B13A700F90156 /* Build configuration list for PBXNativeTarget "JukugoMasterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82C889A0198B13A700F90156 /* Debug */,
+				82C889A1198B13A700F90156 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82C88978198B13A700F90156 /* Project object */;
+}

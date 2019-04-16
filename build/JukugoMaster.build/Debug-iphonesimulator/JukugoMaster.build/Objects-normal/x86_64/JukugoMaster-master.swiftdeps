@@ -1,0 +1,18 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "15bcb55defe918ca7bb328520d648b1d"
+build_time: [1555436164, 670155000]
+inputs:
+  "/Users/GeraldShields/SwiftProject/Jukugo Master/JukugoMaster/ExplodeView.swift": [1555391407, 0]
+  "/Users/GeraldShields/SwiftProject/Jukugo Master/JukugoMaster/GameController.swift": [1555422004, 0]
+  "/Users/GeraldShields/SwiftProject/Jukugo Master/JukugoMaster/ViewController.swift": [1555391470, 0]
+  "/Users/GeraldShields/SwiftProject/Jukugo Master/JukugoMaster/Config.swift": [1555391226, 0]
+  "/Users/GeraldShields/SwiftProject/Jukugo Master/JukugoMaster/Level.swift": [1555391335, 0]
+  "/Users/GeraldShields/SwiftProject/Jukugo Master/JukugoMaster/AppDelegate.swift": [1555391470, 0]
+  "/Users/GeraldShields/SwiftProject/Jukugo Master/JukugoMaster/AudioController.swift": [1555391470, 0]
+  "/Users/GeraldShields/SwiftProject/Jukugo Master/JukugoMaster/StardustView.swift": [1555391407, 0]
+  "/Users/GeraldShields/SwiftProject/Jukugo Master/JukugoMaster/HUDView.swift": [1555391407, 0]
+  "/Users/GeraldShields/SwiftProject/Jukugo Master/JukugoMaster/TargetView.swift": [1555391289, 0]
+  "/Users/GeraldShields/SwiftProject/Jukugo Master/JukugoMaster/CounterLabelView.swift": [1555391407, 0]
+  "/Users/GeraldShields/SwiftProject/Jukugo Master/JukugoMaster/GameData.swift": [1555391289, 0]
+  "/Users/GeraldShields/SwiftProject/Jukugo Master/JukugoMaster/TileView.swift": [1555391289, 0]
+  "/Users/GeraldShields/SwiftProject/Jukugo Master/JukugoMaster/StopwatchView.swift": [1555391335, 0]

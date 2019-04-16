@@ -1,0 +1,211 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AudioController"
+provides-nominal:
+- "12JukugoMaster15AudioControllerC"
+provides-member:
+- ["12JukugoMaster15AudioControllerC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AVAudioPlayer"
+- "AssignmentPrecedence"
+- "AudioController"
+- !private "AudioEffectFiles"
+- !private "Bundle"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "String"
+- !private "print"
+depends-member:
+- !private ["So13AVAudioPlayerC", "currentTime"]
+- !private ["So13AVAudioPlayerC", "init"]
+- !private ["So13AVAudioPlayerC", "isPlaying"]
+- !private ["So13AVAudioPlayerC", "numberOfLoops"]
+- !private ["So13AVAudioPlayerC", "play"]
+- !private ["So13AVAudioPlayerC", "prepareToPlay"]
+- ["12JukugoMaster15AudioControllerC", "AVAudioPlayer"]
+- !private ["12JukugoMaster15AudioControllerC", "AudioEffectFiles"]
+- !private ["12JukugoMaster15AudioControllerC", "Bundle"]
+- ["12JukugoMaster15AudioControllerC", "String"]
+- !private ["12JukugoMaster15AudioControllerC", "audio"]
+- ["12JukugoMaster15AudioControllerC", "init"]
+- ["12JukugoMaster15AudioControllerC", "playEffect"]
+- ["12JukugoMaster15AudioControllerC", "preloadAudioEffects"]
+- !private ["12JukugoMaster15AudioControllerC", "print"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So8NSBundleC", "main"]
+- !private ["So8NSBundleC", "resourceURL"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "currentTime"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isPlaying"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "numberOfLoops"]
+- !private ["s7CVarArgP", "play"]
+- !private ["s7CVarArgP", "prepareToPlay"]
+- !private ["s7CVarArgP", "resourceURL"]
+- !private ["s7CVarArgP", "subscript"]
+- ["Sl", "init"]
+- !private ["Sl", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "appendingPathComponent"]
+- !private ["s28CustomDebugStringConvertibleP", "currentTime"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isPlaying"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "numberOfLoops"]
+- !private ["s28CustomDebugStringConvertibleP", "play"]
+- !private ["s28CustomDebugStringConvertibleP", "prepareToPlay"]
+- !private ["s28CustomDebugStringConvertibleP", "resourceURL"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "appendingPathComponent"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "appendingPathComponent"]
+- !private ["s23CustomStringConvertibleP", "currentTime"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isPlaying"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "numberOfLoops"]
+- !private ["s23CustomStringConvertibleP", "play"]
+- !private ["s23CustomStringConvertibleP", "prepareToPlay"]
+- !private ["s23CustomStringConvertibleP", "resourceURL"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "appendingPathComponent"]
+- ["Se", "init"]
+- !private ["Se", "subscript"]
+- ["SD", "init"]
+- !private ["SD", "subscript"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "appendingPathComponent"]
+- ["SE", "init"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "appendingPathComponent"]
+- !private ["SQ", "currentTime"]
+- ["SQ", "init"]
+- !private ["SQ", "isPlaying"]
+- !private ["SQ", "main"]
+- !private ["SQ", "numberOfLoops"]
+- !private ["SQ", "play"]
+- !private ["SQ", "prepareToPlay"]
+- !private ["SQ", "resourceURL"]
+- !private ["SQ", "subscript"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "appendingPathComponent"]
+- !private ["SH", "currentTime"]
+- ["SH", "init"]
+- !private ["SH", "isPlaying"]
+- !private ["SH", "main"]
+- !private ["SH", "numberOfLoops"]
+- !private ["SH", "play"]
+- !private ["SH", "prepareToPlay"]
+- !private ["SH", "resourceURL"]
+- !private ["SH", "subscript"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["So8NSObjectC", "currentTime"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isPlaying"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "numberOfLoops"]
+- !private ["So8NSObjectC", "play"]
+- !private ["So8NSObjectC", "prepareToPlay"]
+- !private ["So8NSObjectC", "resourceURL"]
+- !private ["So8NSObjectP", "currentTime"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "isPlaying"]
+- !private ["So8NSObjectP", "main"]
+- !private ["So8NSObjectP", "numberOfLoops"]
+- !private ["So8NSObjectP", "play"]
+- !private ["So8NSObjectP", "prepareToPlay"]
+- !private ["So8NSObjectP", "resourceURL"]
+- !private ["10Foundation20ReferenceConvertibleP", "appendingPathComponent"]
+- ["ST", "init"]
+- !private ["ST", "subscript"]
+- !private ["10Foundation3URLV", "appendingPathComponent"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "appendingPathComponent"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "currentTime"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isPlaying"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "numberOfLoops"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "play"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "prepareToPlay"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "resourceURL"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "appendingPathComponent"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- !private "So13AVAudioPlayerC"
+- "12JukugoMaster15AudioControllerC"
+- !private "Sb"
+- !private "So8NSBundleC"
+- "s7CVarArgP"
+- "Sl"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "SD"
+- "SE"
+- "SQ"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s30ExpressibleByDictionaryLiteralP"
+- "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "10Foundation20ReferenceConvertibleP"
+- "ST"
+- !private "10Foundation3URLV"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Web and App Development/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Web and App Development/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Web and App Development/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Web and App Development/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Web and App Development/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Web and App Development/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Web and App Development/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Web and App Development/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Web and App Development/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Web and App Development/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Web and App Development/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Web and App Development/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Web and App Development/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Web and App Development/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Web and App Development/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Web and App Development/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Web and App Development/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Web and App Development/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Web and App Development/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Web and App Development/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Web and App Development/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Web and App Development/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Web and App Development/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Web and App Development/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Web and App Development/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Web and App Development/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Web and App Development/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Web and App Development/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Web and App Development/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Web and App Development/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Web and App Development/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Web and App Development/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "104c3358339e2da5f033717517426d74"
