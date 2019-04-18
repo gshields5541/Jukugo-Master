@@ -10,11 +10,11 @@
 		</data>
 		<key>Base.lproj/Main.storyboardc/UIViewController-vXZ-lx-hvc.nib</key>
 		<data>
-		WPTwjEJMuwfHzw1Clho3BLG8Te4=
+		kP6B3I8DdGEWDpCAj0sm6QcM+Zw=
 		</data>
 		<key>Base.lproj/Main.storyboardc/vXZ-lx-hvc-view-kh9-bI-dsS.nib</key>
 		<data>
-		PdIvdhax0eWckvMjWNwQlld1nD0=
+		3rdPDJkxrDtLcSWPIDZnJXLJBJw=
 		</data>
 		<key>Comic_Andy.ttf</key>
 		<data>
@@ -98,19 +98,23 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		p8z2VLw5axr1l7qvK5CmjMNe1HQ=
+		s9/SQ4taTrSrrWpI+33iWJgIz4M=
 		</data>
 		<key>PkgInfo</key>
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
 		</data>
-		<key>board.jpg</key>
+		<key>board.png</key>
 		<data>
-		J4shcEin7RwH5WQg9pbVwsfSq08=
+		UkTHWA3a0P58CteJpmyC1LpNXIU=
 		</data>
-		<key>board@2x.jpg</key>
+		<key>board@2x.png</key>
 		<data>
-		Y1qfOCuU5FViYf8XKcEf2Co69Wk=
+		tqjQJH1Eaw96Mub9EHH1yFAzo2I=
+		</data>
+		<key>board@3x.png</key>
+		<data>
+		z/JfoIi216P/sbbPHDF+7BIL8to=
 		</data>
 		<key>btn.png</key>
 		<data>
@@ -130,7 +134,7 @@
 		</data>
 		<key>level1.plist</key>
 		<data>
-		CyMBTo54lV3uzqyN8YtvI7R2zIE=
+		ivIa12nOJfjkUw+jDkuFDbud02M=
 		</data>
 		<key>level2.plist</key>
 		<data>
@@ -186,14 +190,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			i9qajRJJnJMmTchoZu9TgLgN2LcUwyhXs/K4kr32388=
+			hJlH68wLsuvX7b0C4dO8RVQLL00X4pyYh3YLT8+rZQk=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/vXZ-lx-hvc-view-kh9-bI-dsS.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Cl3W+1edB+ciWtfiNgR2N/Owq+u5m2npvhghPemHwuY=
+			qYkZmUIiDxUVm6quBuHvNFx5psO7V8WnOpcKeLKo3gw=
 			</data>
 		</dict>
 		<key>Comic_Andy.ttf</key>
@@ -336,18 +340,25 @@
 			HBwX3SzbF4tygh2q9oYITKe02e2eVHnHTc2QB/1CV+U=
 			</data>
 		</dict>
-		<key>board.jpg</key>
+		<key>board.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Q7xgx0d5fkiNZbJy+GW0jylsub/gsrWPEmpa74fwMtg=
+			16ouhg48jk8As2sLsHcUZwt6U227fjgjjXkDRbEvVWg=
 			</data>
 		</dict>
-		<key>board@2x.jpg</key>
+		<key>board@2x.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PihLmCwXxotr2lWXXHudsDqa4hax+WBtJMCkGj+3cgI=
+			TZeH9K8EZPZX48aV6/1IHj65aaKL20kw7fZAHURc35Y=
+			</data>
+		</dict>
+		<key>board@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			pg9BOjVvD0Y1XVjqb1899RZB24uSCj/Kx6Okckm6rcM=
 			</data>
 		</dict>
 		<key>btn.png</key>
@@ -382,7 +393,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			gOgWt0uBf9QY5j3Ulj2j1YCuHTIczYXuXiXY4FvxqLs=
+			JGxUnhRfseHyi2emGYchVuFbNVPHytw5aeDZz419Q1w=
 			</data>
 		</dict>
 		<key>level2.plist</key>

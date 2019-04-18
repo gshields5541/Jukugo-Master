@@ -80,7 +80,8 @@ class ViewController: UIViewController {
     //5 show the appropriate level selected by the player
     func showLevel(levelNumber:Int) {
         controller.level = Level(levelNumber: levelNumber)
-        controller.dealRandomAnagram()
+        controller.dealRandomCompounds()
     }
+    
 }
 

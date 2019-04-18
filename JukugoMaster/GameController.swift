@@ -36,6 +36,7 @@ class GameController {
         hud.gamePoints.setValue(newValue: data.points, duration: 1.5)
         
         //3
+        
         var foundTarget:TargetView? = nil
         for target in targets {
             if !target.isMatched {
@@ -46,7 +47,7 @@ class GameController {
         
         //4 find the first tile matching the target
         var foundTile:TileView? = nil
-        for tile in tiles {
+        for tile in tiles  {
             if !tile.isMatched && tile.letter == foundTarget?.letter {
                 foundTile = tile
                 break
@@ -81,6 +82,7 @@ class GameController {
         }
     }
     
+    
     //clear the tiles and targets
     func clearBoard() {
         tiles.removeAll(keepingCapacity: false)
@@ -105,7 +107,7 @@ class GameController {
     
     
     
-    func dealRandomAnagram () {
+    func dealRandomCompounds () {
         //1
         assert(level.compounds.count > 0, "no level loaded")
         
@@ -116,20 +118,23 @@ class GameController {
         //3
         let compound1 = compoundPair[0] as! String
         let compound2 = compoundPair[1] as! String
+        let compound3 = compoundPair[2] as! String
         
         //4
         let compound1length = compound1.count
         let compound2length = compound2.count
+        let compound3length = compound3.count
         
         //5
         print("phrase1[\(compound1length)]: \(compound1)")
         print("phrase2[\(compound2length)]: \(compound2)")
+        print("phrase3[\(compound2length)]: \(compound3)")
         
         //calculate the tile size
-        let tileSide = ceil(ScreenWidth * 0.9 / CGFloat(max(compound1length, compound2length))) - TileMargin
+        let tileSide = ceil(ScreenWidth * 0.9 / CGFloat(max(compound1length, compound2length, compound3length))) - TileMargin
         
         //get the left margin for first tile
-        var xOffset = (ScreenWidth - CGFloat(max(compound1length, compound2length)) * (tileSide + TileMargin)) / 2.0
+        var xOffset = (ScreenWidth - CGFloat(max(compound1length, compound2length, compound3length)) * (tileSide + TileMargin)) / 2.0
         
         //adjust for tile center (instead of the tile's origin)
         xOffset += tileSide / 2.0
@@ -148,7 +153,6 @@ class GameController {
                 targets.append(target)
             }
         }
-        
         //1 initialize tile list
         tiles = []
         
@@ -166,6 +170,23 @@ class GameController {
                 tiles.append(tile)
             }
         }
+        
+        //create a list for the meanings of the jukugo
+        
+        for (index, letter) in compound3.enumerated() {
+            //3
+            if letter != " " {
+                let tile = TileView(letter: letter, sideLength: tileSide)
+                tile.center = CGPoint(x: xOffset + CGFloat(index)*(tileSide + TileMargin), y: ScreenHeight/6*3)
+                tile.randomize()
+                tile.dragDelegate = self
+                
+                //4
+                gameView.addSubview(tile)
+                tiles.append(tile)
+            }
+        }
+        
         //start the timer
         self.startStopwatch()
         

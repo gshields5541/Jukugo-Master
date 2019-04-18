@@ -28,11 +28,9 @@
 		CCA047962265A07B004271A1 /* slot@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCA0478E2265A07B004271A1 /* slot@2x.png */; };
 		CCA047972265A07B004271A1 /* btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCA0478F2265A07B004271A1 /* btn@2x.png */; };
 		CCA047982265A07B004271A1 /* tile.png in Resources */ = {isa = PBXBuildFile; fileRef = CCA047902265A07B004271A1 /* tile.png */; };
-		CCA047992265A07B004271A1 /* board.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCA047912265A07B004271A1 /* board.jpg */; };
 		CCA0479A2265A07B004271A1 /* btn.png in Resources */ = {isa = PBXBuildFile; fileRef = CCA047922265A07B004271A1 /* btn.png */; };
 		CCA0479B2265A07B004271A1 /* slot.png in Resources */ = {isa = PBXBuildFile; fileRef = CCA047932265A07B004271A1 /* slot.png */; };
 		CCA0479C2265A07B004271A1 /* tile@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCA047942265A07B004271A1 /* tile@2x.png */; };
-		CCA0479D2265A07B004271A1 /* board@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCA047952265A07B004271A1 /* board@2x.jpg */; };
 		CCA047A12265A0A8004271A1 /* ding.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CCA0479E2265A0A8004271A1 /* ding.mp3 */; };
 		CCA047A22265A0A8004271A1 /* win.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CCA0479F2265A0A8004271A1 /* win.mp3 */; };
 		CCA047A32265A0A8004271A1 /* wrong.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CCA047A02265A0A8004271A1 /* wrong.m4a */; };
@@ -43,6 +41,9 @@
 		CCA047AF2265A3C2004271A1 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CCA047AC2265A3C2004271A1 /* Default.png */; };
 		CCA047B42265AE94004271A1 /* level2.plist in Resources */ = {isa = PBXBuildFile; fileRef = CCA047B32265AE94004271A1 /* level2.plist */; };
 		CCA047B62265B13D004271A1 /* level3.plist in Resources */ = {isa = PBXBuildFile; fileRef = CCA047B52265B13D004271A1 /* level3.plist */; };
+		CCC3103B2268CF3C00545479 /* board@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCC310382268CF3C00545479 /* board@3x.png */; };
+		CCC3103C2268CF3C00545479 /* board@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCC310392268CF3C00545479 /* board@2x.png */; };
+		CCC3103D2268CF3C00545479 /* board.png in Resources */ = {isa = PBXBuildFile; fileRef = CCC3103A2268CF3C00545479 /* board.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,11 +81,9 @@
 		CCA0478E2265A07B004271A1 /* slot@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "slot@2x.png"; path = "JukugoMaster/slot@2x.png"; sourceTree = SOURCE_ROOT; };
 		CCA0478F2265A07B004271A1 /* btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "btn@2x.png"; path = "JukugoMaster/btn@2x.png"; sourceTree = SOURCE_ROOT; };
 		CCA047902265A07B004271A1 /* tile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tile.png; path = JukugoMaster/tile.png; sourceTree = SOURCE_ROOT; };
-		CCA047912265A07B004271A1 /* board.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = board.jpg; path = JukugoMaster/board.jpg; sourceTree = SOURCE_ROOT; };
 		CCA047922265A07B004271A1 /* btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btn.png; path = JukugoMaster/btn.png; sourceTree = SOURCE_ROOT; };
 		CCA047932265A07B004271A1 /* slot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = slot.png; path = JukugoMaster/slot.png; sourceTree = SOURCE_ROOT; };
 		CCA047942265A07B004271A1 /* tile@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tile@2x.png"; path = "JukugoMaster/tile@2x.png"; sourceTree = SOURCE_ROOT; };
-		CCA047952265A07B004271A1 /* board@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "board@2x.jpg"; path = "JukugoMaster/board@2x.jpg"; sourceTree = SOURCE_ROOT; };
 		CCA0479E2265A0A8004271A1 /* ding.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = ding.mp3; path = JukugoMaster/ding.mp3; sourceTree = SOURCE_ROOT; };
 		CCA0479F2265A0A8004271A1 /* win.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = win.mp3; path = JukugoMaster/win.mp3; sourceTree = SOURCE_ROOT; };
 		CCA047A02265A0A8004271A1 /* wrong.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = wrong.m4a; path = JukugoMaster/wrong.m4a; sourceTree = SOURCE_ROOT; };
@@ -95,6 +94,9 @@
 		CCA047AC2265A3C2004271A1 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = JukugoMaster/Default.png; sourceTree = SOURCE_ROOT; };
 		CCA047B32265AE94004271A1 /* level2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = level2.plist; path = JukugoMaster/level2.plist; sourceTree = SOURCE_ROOT; };
 		CCA047B52265B13D004271A1 /* level3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = level3.plist; path = JukugoMaster/level3.plist; sourceTree = SOURCE_ROOT; };
+		CCC310382268CF3C00545479 /* board@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "board@3x.png"; sourceTree = "<group>"; };
+		CCC310392268CF3C00545479 /* board@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "board@2x.png"; sourceTree = "<group>"; };
+		CCC3103A2268CF3C00545479 /* board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = board.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -268,8 +270,9 @@
 		82C889BB198B19DD00F90156 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				CCA047912265A07B004271A1 /* board.jpg */,
-				CCA047952265A07B004271A1 /* board@2x.jpg */,
+				CCC3103A2268CF3C00545479 /* board.png */,
+				CCC310392268CF3C00545479 /* board@2x.png */,
+				CCC310382268CF3C00545479 /* board@3x.png */,
 				CCA047922265A07B004271A1 /* btn.png */,
 				CCA0478F2265A07B004271A1 /* btn@2x.png */,
 				CCA047932265A07B004271A1 /* slot.png */,
@@ -365,6 +368,7 @@
 				CCA047AA2265A31C004271A1 /* Main.storyboard in Resources */,
 				CCA047A52265A0BD004271A1 /* particle.png in Resources */,
 				CCA047A22265A0A8004271A1 /* win.mp3 in Resources */,
+				CCC3103C2268CF3C00545479 /* board@2x.png in Resources */,
 				CCA0477522659F98004271A1 /* credits.txt in Resources */,
 				CCA047AF2265A3C2004271A1 /* Default.png in Resources */,
 				CCA0479C2265A07B004271A1 /* tile@2x.png in Resources */,
@@ -372,14 +376,14 @@
 				CCA047A12265A0A8004271A1 /* ding.mp3 in Resources */,
 				CCA047B42265AE94004271A1 /* level2.plist in Resources */,
 				CCA047982265A07B004271A1 /* tile.png in Resources */,
+				CCC3103B2268CF3C00545479 /* board@3x.png in Resources */,
 				CCA0479B2265A07B004271A1 /* slot.png in Resources */,
 				CCA0477122659F6F004271A1 /* Images.xcassets in Resources */,
 				CCA047AE2265A3C2004271A1 /* Default@2x.png in Resources */,
-				CCA047992265A07B004271A1 /* board.jpg in Resources */,
 				CCA047A32265A0A8004271A1 /* wrong.m4a in Resources */,
-				CCA0479D2265A07B004271A1 /* board@2x.jpg in Resources */,
 				CCA047B62265B13D004271A1 /* level3.plist in Resources */,
 				CCA0479A2265A07B004271A1 /* btn.png in Resources */,
+				CCC3103D2268CF3C00545479 /* board.png in Resources */,
 				CCA047A72265A0CF004271A1 /* Comic_Andy.ttf in Resources */,
 				CCA047972265A07B004271A1 /* btn@2x.png in Resources */,
 				CCA0477722659FCE004271A1 /* level1.plist in Resources */,

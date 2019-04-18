@@ -428,7 +428,7 @@ depends-member:
 - ["12JukugoMaster14GameControllerC", "checkForSuccess"]
 - ["12JukugoMaster14GameControllerC", "clearBoard"]
 - !private ["12JukugoMaster14GameControllerC", "data"]
-- ["12JukugoMaster14GameControllerC", "dealRandomAnagram"]
+- ["12JukugoMaster14GameControllerC", "dealRandomCompounds"]
 - ["12JukugoMaster14GameControllerC", "deinit"]
 - ["12JukugoMaster14GameControllerC", "gameView"]
 - ["12JukugoMaster14GameControllerC", "hud"]
@@ -1394,4 +1394,4 @@ depends-external:
 - "/Applications/Web and App Development/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
 - "/Applications/Web and App Development/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
 - "/Applications/Web and App Development/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "419a1cd69488a9b9f7f3049c47ecd4b0"
+interface-hash: "7f6eb787ce92ad290489e2ebc1893e03"
