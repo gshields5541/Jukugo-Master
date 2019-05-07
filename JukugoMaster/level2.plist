@@ -5,54 +5,54 @@
 	<key>compounds</key>
 	<array>
 		<array>
-			<string>朝飯ご肉</string>
-			<string>朝ご飯</string>
-			<string>breakfast</string>
+			<string>朝い致た肉す</string>
+			<string>致す</string>
+			<string>to do</string>
 		</array>
 		<array>
-			<string>朝飯ご肉</string>
-			<string>肉</string>
-			<string>meat</string>
+			<string>頂朝飯ごく肉</string>
+			<string>頂く</string>
+			<string>to receive</string>
 		</array>
 		<array>
-			<string>朝飯ご肉牛</string>
-			<string>牛肉</string>
-			<string>beef</string>
+			<string>朝伺ごう牛</string>
+			<string>伺う</string>
+			<string>to ask</string>
 		</array>
 		<array>
-			<string>朝不飯ご肉安</string>
-			<string>不安</string>
-			<string>anxiety</string>
+			<string>朝不参ごる安</string>
+			<string>参る</string>
+			<string>to go</string>
 		</array>
 		<array>
-			<string>朝飯ご体肉</string>
-			<string>体</string>
-			<string>body</string>
+			<string>朝飯申体す</string>
+			<string>申す</string>
+			<string>to say</string>
 		</array>
 		<array>
-			<string>朝飯ご肉空</string>
-			<string>空</string>
-			<string>sky</string>
+			<string>上朝しごげ空差る</string>
+			<string>差し上げる</string>
+			<string>to give, offer</string>
 		</array>
 		<array>
-			<string>物み理い料空買金気朝飯ご肉</string>
-			<string>空気</string>
-			<string>air</string>
+			<string>物る理御金気座ご肉</string>
+			<string>御座る</string>
+			<string>to be</string>
 		</array>
 		<array>
-			<string>特み理い空料買金に手</string>
-			<string>空手</string>
-			<string>karate</string>
+			<string>特み歩空料く手</string>
+			<string>歩く</string>
+			<string>to walk</string>
 		</array>
 		<array>
-			<string>特み理い気安分買金に</string>
-			<string>気分</string>
-			<string>feeling</string>
+			<string>特曲気安が買る</string>
+			<string>曲がる</string>
+			<string>to bend</string>
 		</array>
 		<array>
-			<string>特心理い悪安買金にい</string>
-			<string>悪い</string>
-			<string>bad</string>
+			<string>特戻悪安るにい</string>
+			<string>戻る</string>
+			<string>to turn back</string>
 		</array>
 	</array>
 	<key>timeToSolve</key>

@@ -5,54 +5,54 @@
 	<key>compounds</key>
 	<array>
 		<array>
-			<string>朝飯ご肉港</string>
-			<string>港</string>
-			<string>harbor</string>
+			<string>朝飯重肉い</string>
+			<string>重い</string>
+			<string>heavy</string>
 		</array>
 		<array>
-			<string>朝飯ご空港着</string>
-			<string>空港</string>
-			<string>airport</string>
+			<string>朝軽ご空い着</string>
+			<string>軽い</string>
+			<string>light</string>
 		</array>
 		<array>
-			<string>朝飯着ご肉牛物</string>
-			<string>着物</string>
-			<string>着物</string>
+			<string>い朝飯うごる牛さ</string>
+			<string>うるさい</string>
+			<string>noisy, loud</string>
 		</array>
 		<array>
-			<string>朝飯着ご肉牛物る</string>
-			<string>着る</string>
-			<string>wear</string>
+			<string>朝飯心肉牛配る</string>
+			<string>心配</string>
+			<string>worry</string>
 		</array>
 		<array>
-			<string>朝飯着ご肉牛物く</string>
-			<string>着く</string>
-			<string>arrive</string>
+			<string>朝ちおご肉金持</string>
+			<string>お金持ち</string>
+			<string>rich person</string>
 		</array>
 		<array>
-			<string>朝飯ご肉同空じ</string>
-			<string>同じ</string>
-			<string>same</string>
+			<string>貧なご肉同乏じ</string>
+			<string>貧乏な</string>
+			<string>poor</string>
 		</array>
 		<array>
-			<string>物み理い同料空買金気朝飯ご肉時</string>
-			<string>同時</string>
-			<string>same time</string>
+			<string>物み変空買金な時</string>
+			<string>変な</string>
+			<string>weird</string>
 		</array>
 		<array>
-			<string>特み理い海空料買金に手</string>
-			<string>海</string>
-			<string>sea</string>
+			<string>特みない楽料くに手</string>
+			<string>楽くな</string>
+			<string>comfort</string>
 		</array>
 		<array>
-			<string>特み理海い気安分買金に外</string>
-			<string>海外</string>
-			<string>foreign</string>
+			<string>特み美海い味分しに外</string>
+			<string>美味しい</string>
+			<string>delicious</string>
 		</array>
 		<array>
-			<string>特心ご理い飯悪安買金にい昼</string>
-			<string>昼ご飯</string>
-			<string>lunch</string>
+			<string>特心不理い飯悪味昼</string>
+			<string>不味い</string>
+			<string>unappetising</string>
 		</array>
 	</array>
 	<key>timeToSolve</key>
