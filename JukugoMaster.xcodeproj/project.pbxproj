@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		82C88999198B13A700F90156 /* CompoundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C88998198B13A700F90156 /* CompoundTests.swift */; };
+		CB6A2DC3226C778600D9BA89 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB6A2DC2226C778600D9BA89 /* Foundation.framework */; };
+		CB6A2DC5226C779900D9BA89 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB6A2DC4226C779900D9BA89 /* AVKit.framework */; };
+		CB6A2DC7226C77F000D9BA89 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB6A2DC6226C77F000D9BA89 /* UIKit.framework */; };
 		CCA0476D22659F3B004271A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA0476C22659F3B004271A1 /* AppDelegate.swift */; };
 		CCA0476F22659F59004271A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA0476E22659F59004271A1 /* ViewController.swift */; };
 		CCA0477122659F6F004271A1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCA0477022659F6F004271A1 /* Images.xcassets */; };
@@ -46,21 +48,13 @@
 		CCC3103D2268CF3C00545479 /* board.png in Resources */ = {isa = PBXBuildFile; fileRef = CCC3103A2268CF3C00545479 /* board.png */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		82C88993198B13A700F90156 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 82C88978198B13A700F90156 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 82C8897F198B13A700F90156;
-			remoteInfo = Anagrams;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		82C88980198B13A700F90156 /* JukugoMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JukugoMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		82C88992198B13A700F90156 /* JukugoMasterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JukugoMasterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		82C88997198B13A700F90156 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		82C88998198B13A700F90156 /* CompoundTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompoundTests.swift; sourceTree = "<group>"; };
+		CB6A2DC2226C778600D9BA89 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CB6A2DC4226C779900D9BA89 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		CB6A2DC6226C77F000D9BA89 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CCA0476C22659F3B004271A1 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = JukugoMaster/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
 		CCA0476E22659F59004271A1 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = JukugoMaster/ViewController.swift; sourceTree = SOURCE_ROOT; };
 		CCA0477022659F6F004271A1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = JukugoMaster/Images.xcassets; sourceTree = SOURCE_ROOT; };
@@ -104,13 +98,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		82C8898F198B13A700F90156 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				CB6A2DC7226C77F000D9BA89 /* UIKit.framework in Frameworks */,
+				CB6A2DC5226C779900D9BA89 /* AVKit.framework in Frameworks */,
+				CB6A2DC3226C778600D9BA89 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,6 +113,7 @@
 				82C88982198B13A700F90156 /* JukugoMaster */,
 				82C88995198B13A700F90156 /* JukugoMasterTests */,
 				82C88981198B13A700F90156 /* Products */,
+				CB6A2DC1226C778600D9BA89 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -130,7 +121,6 @@
 			isa = PBXGroup;
 			children = (
 				82C88980198B13A700F90156 /* JukugoMaster.app */,
-				82C88992198B13A700F90156 /* JukugoMasterTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -283,6 +273,16 @@
 			name = Images;
 			sourceTree = "<group>";
 		};
+		CB6A2DC1226C778600D9BA89 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB6A2DC6226C77F000D9BA89 /* UIKit.framework */,
+				CB6A2DC4226C779900D9BA89 /* AVKit.framework */,
+				CB6A2DC2226C778600D9BA89 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -303,47 +303,25 @@
 			productReference = 82C88980198B13A700F90156 /* JukugoMaster.app */;
 			productType = "com.apple.product-type.application";
 		};
-		82C88991198B13A700F90156 /* JukugoMasterTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 82C8899F198B13A700F90156 /* Build configuration list for PBXNativeTarget "JukugoMasterTests" */;
-			buildPhases = (
-				82C8898E198B13A700F90156 /* Sources */,
-				82C8898F198B13A700F90156 /* Frameworks */,
-				82C88990198B13A700F90156 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				82C88994198B13A700F90156 /* PBXTargetDependency */,
-			);
-			name = JukugoMasterTests;
-			productName = AnagramsTests;
-			productReference = 82C88992198B13A700F90156 /* JukugoMasterTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		82C88978198B13A700F90156 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1010;
+				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = Caroline;
 				TargetAttributes = {
 					82C8897F198B13A700F90156 = {
 						CreatedOnToolsVersion = 6.0;
 						DevelopmentTeam = H92GAQ5MQY;
-					};
-					82C88991198B13A700F90156 = {
-						CreatedOnToolsVersion = 6.0;
-						DevelopmentTeam = H92GAQ5MQY;
-						TestTargetID = 82C8897F198B13A700F90156;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
 			buildConfigurationList = 82C8897B198B13A700F90156 /* Build configuration list for PBXProject "JukugoMaster" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -355,7 +333,6 @@
 			projectRoot = "";
 			targets = (
 				82C8897F198B13A700F90156 /* JukugoMaster */,
-				82C88991198B13A700F90156 /* JukugoMasterTests */,
 			);
 		};
 /* End PBXProject section */
@@ -390,13 +367,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		82C88990198B13A700F90156 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -421,23 +391,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		82C8898E198B13A700F90156 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				82C88999198B13A700F90156 /* CompoundTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		82C88994198B13A700F90156 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 82C8897F198B13A700F90156 /* JukugoMaster */;
-			targetProxy = 82C88993198B13A700F90156 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		CCA047A82265A31C004271A1 /* Main.storyboard */ = {
@@ -454,7 +408,8 @@
 		82C8899A198B13A700F90156 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -508,7 +463,8 @@
 		82C8899B198B13A700F90156 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -558,12 +514,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = H92GAQ5MQY;
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos12.2]" = "";
 				INFOPLIST_FILE = JukugoMaster/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.geraldshields.JukugoMaster;
 				PRODUCT_NAME = JukugoMaster;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
+				"SYSTEM_FRAMEWORK_SEARCH_PATHS[sdk=iphoneos12.2]" = "";
 				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
@@ -574,51 +531,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = H92GAQ5MQY;
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos12.2]" = "";
 				INFOPLIST_FILE = JukugoMaster/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.geraldshields.JukugoMaster;
 				PRODUCT_NAME = JukugoMaster;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
+				"SYSTEM_FRAMEWORK_SEARCH_PATHS[sdk=iphoneos12.2]" = "";
 				TARGETED_DEVICE_FAMILY = 2;
-			};
-			name = Release;
-		};
-		82C889A0198B13A700F90156 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Anagrams.app/Anagrams";
-				DEVELOPMENT_TEAM = H92GAQ5MQY;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = AnagramsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.carolinebegbie.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-			};
-			name = Debug;
-		};
-		82C889A1198B13A700F90156 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Anagrams.app/Anagrams";
-				DEVELOPMENT_TEAM = H92GAQ5MQY;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = AnagramsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.carolinebegbie.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
 			};
 			name = Release;
 		};
@@ -639,15 +559,6 @@
 			buildConfigurations = (
 				82C8899D198B13A700F90156 /* Debug */,
 				82C8899E198B13A700F90156 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		82C8899F198B13A700F90156 /* Build configuration list for PBXNativeTarget "JukugoMasterTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				82C889A0198B13A700F90156 /* Debug */,
-				82C889A1198B13A700F90156 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

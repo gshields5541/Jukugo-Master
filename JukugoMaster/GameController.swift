@@ -231,7 +231,7 @@ class GameController {
         //stop the stopwatch
         self.stopStopwatch()
         
-        //the anagram is completed!
+        //the compound is completed!
         audioController.playEffect(name: SoundWin)
         
         //win animation

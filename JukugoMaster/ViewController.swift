@@ -55,23 +55,23 @@ class ViewController: UIViewController {
                                                 preferredStyle:UIAlertController.Style.alert)
         
         //2 set up the menu actions
-        let easy = UIAlertAction(title: "Easy-peasy", style:.default,
+        let nouns = UIAlertAction(title: "Nouns", style:.default,
                                  handler: {(alert:UIAlertAction!) in
                                     self.showLevel(levelNumber: 1)
         })
-        let hard = UIAlertAction(title: "Challenge accepted", style:.default,
+        let adjectives = UIAlertAction(title: "Adjectives", style:.default,
                                  handler: {(alert:UIAlertAction!) in
                                     self.showLevel(levelNumber: 2)
         })
-        let hardest = UIAlertAction(title: "I'm totally hard-core", style: .default,
+        let verbAdverb = UIAlertAction(title: "Verbs and Adverbs", style: .default,
                                     handler: {(alert:UIAlertAction!) in
                                         self.showLevel(levelNumber: 3)
         })
         
         //3 add the menu actions to the menu
-        alertController.addAction(easy)
-        alertController.addAction(hard)
-        alertController.addAction(hardest)
+        alertController.addAction(nouns)
+        alertController.addAction(adjectives)
+        alertController.addAction(verbAdverb)
         
         //4 show the UIAlertController
         self.present(alertController, animated: true, completion: nil)

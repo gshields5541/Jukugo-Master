@@ -5,9 +5,9 @@
 	<key>compounds</key>
 	<array>
 		<array>
-			<string>物飲鳥白</string>
-			<string>物</string>
-			<string>thing</string>
+			<string>お犬宅着物</string>
+			<string>お宅</string>
+			<string>house</string>
 		</array>
 		<array>
 			<string>物え飲鳥い白買</string>
@@ -20,14 +20,14 @@
 			<string>beverage</string>
 		</array>
 		<array>
-			<string>物み飲い白買鳥</string>
-			<string>鳥</string>
-			<string>bird</string>
+			<string>物外み国白語鳥</string>
+			<string>外国語</string>
+			<string>foreign language</string>
 		</array>
 		<array>
-			<string>物み飲い白買鳥</string>
-			<string>白鳥</string>
-			<string>White Swan</string>
+			<string>物着飲物白買鳥</string>
+			<string>着物</string>
+			<string>Kimono</string>
 		</array>
 		<array>
 			<string>物み理い料買鳥</string>
@@ -40,19 +40,19 @@
 			<string>charge</string>
 		</array>
 		<array>
-			<string>特み理い料買金に</string>
-			<string>特に</string>
-			<string>especially</string>
+			<string>特み告料買広</string>
+			<string>広告</string>
+			<string>advertisement</string>
 		</array>
 		<array>
-			<string>特み理い安買金に</string>
-			<string>安い</string>
-			<string>cheap</string>
+			<string>特葉い安言に</string>
+			<string>言葉</string>
+			<string>word</string>
 		</array>
 		<array>
-			<string>特心理い安買金に</string>
-			<string>安心</string>
-			<string>relief</string>
+			<string>特心法安文</string>
+			<string>文法</string>
+			<string>grammar</string>
 		</array>
 	</array>
 	<key>timeToSolve</key>
